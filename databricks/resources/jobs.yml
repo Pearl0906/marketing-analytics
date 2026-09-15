@@ -1,0 +1,11 @@
+resources:
+  jobs:
+    marketing_bronze_ingestion:
+      name: marketing_bronze_ingestion
+
+      tasks:
+        - task_key: bronze_ingestion
+
+          notebook_task:
+            notebook_path: ../notebooks/bronze/ingestion.ipynb
+            warehouse_id: ${var.warehouse_id}
