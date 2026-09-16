@@ -1,0 +1,11 @@
+{
+  "policy_id": "github-actions-dev",
+  "description": "GitHub Actions federation for marketing-analytics dev environment",
+  "oidc_policy": {
+    "issuer": "https://token.actions.githubusercontent.com",
+    "audiences": [
+      "5726469b-997f-40b7-84a7-29956de5b178"
+    ],
+    "subject": "repo:Pearl0906/marketing-analytics:environment:dev"
+  }
+}

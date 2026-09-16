@@ -1,0 +1,9 @@
+{
+  "oidc_policy": {
+    "issuer": "https://token.actions.githubusercontent.com",
+    "audiences": [
+      "https://dbc-8632cfda-0851.cloud.databricks.com/oidc/v1/token"
+    ],
+    "subject": "repo:Pearl0906@214838663/marketing-analytics@1371632299:environment:dev"
+  }
+}
