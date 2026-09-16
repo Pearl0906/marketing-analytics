@@ -1,4 +1,4 @@
-name: Marketing Analytic CI/CD
+name: Marketing Analytics CI/CD
 
 on:
   push:
